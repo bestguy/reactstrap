@@ -17,6 +17,7 @@ import PopoversPage from './Components/PopoversPage';
 import ProgressPage from './Components/ProgressPage';
 import TooltipsPage from './Components/TooltipsPage';
 import BadgePage from './Components/BadgePage';
+import OffcanvasPage from './Components/OffcanvasPage';
 import AccordionPage from './Components/AccordionPage';
 import MediaPage from './Components/MediaPage';
 import ModalsPage from './Components/ModalsPage';
@@ -52,6 +53,7 @@ const routes = (
         <Route path="fade/" component={FadePage} />
         <Route path="form/" component={FormPage} />
         <Route path="input-group/" component={InputGroupPage} />
+        <Route path="offcanvas/" component={OffcanvasPage} />
         <Route path="popovers/" component={PopoversPage} />
         <Route path="progress/" component={ProgressPage} />
         <Route path="tooltips/" component={TooltipsPage} />

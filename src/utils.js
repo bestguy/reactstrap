@@ -152,6 +152,7 @@ export const TransitionTimeouts = {
   Fade:     150, // $transition-fade
   Collapse: 350, // $transition-collapse
   Modal:    300, // $modal-transition
+  Offcanvas: 300, // $offcanvas-transition
   Carousel: 600, // $carousel-transition
 };
 
